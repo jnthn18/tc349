@@ -1,0 +1,24 @@
+// _grid.scss
+
+.grid{
+    height: 200px;
+}
+.media-grid {
+  list-style-type: none;
+  background: #3E7A7F;
+  margin: 0;
+  padding: 0;
+}
+.media-grid li {
+  background: #5EB7BF;
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+.media-grid.media-grid-md li {
+  width: 25%;
+  height: 200px;
+}
+.media-grid li:nth-child(even) {
+  background: #70DCE5;
+}
