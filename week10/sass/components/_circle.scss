@@ -1,0 +1,13 @@
+// _circle.scss
+@import "compass/css3/border-radius";
+@import "compass/css3/background-size";
+
+.circular {
+    width: 200px;
+    height: 200px;
+    @include border-radius(100px, 100px);
+    background: url('../img/me2.jpg') no-repeat;
+    background-position: left -35px top 0px;
+    @include background-size(300px 300px);
+    margin: auto;
+}

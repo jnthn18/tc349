@@ -1,0 +1,17 @@
+// _primary.scss
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.primary{
+    background-color: #386E73;
+    padding-top: 50px;
+}
+.highlight{
+    height: 250px;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3E7A7F;
+}
