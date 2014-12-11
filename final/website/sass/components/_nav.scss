@@ -1,0 +1,36 @@
+// _nav.scss
+.nav{
+	background-color: #ef4836 !important;
+	box-sizing: border-box;
+	border-bottom: 1px solid #c0392b;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.nav-highlight{
+	background-color: #d54030;
+	height: 10px;
+}
+.nav-menu{
+	height: 39px;
+	padding: 8px 15px 10px 15px;
+}
+.burger{
+	color: #FFF;
+	float: right;
+	line-height: 1.1em !important;
+}
+.back{
+	color: #FFF;
+	font-size: 14px;
+	padding-left: 10px;
+	display: none;
+}
+.back:hover, .back:focus{
+	color: #FFF;
+}
+.banner{
+	font-family: 'League Gothic';
+	color: #FFF;
+	font-size: 32px;
+	margin-top: -2px;
+	line-height: 1em;
+}

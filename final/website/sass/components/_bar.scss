@@ -1,0 +1,48 @@
+// _bar.scss
+h4{
+	font-family: 'Open Sans', sans-serif !important;
+	text-align: center;
+	-webkit-margin-before: 1.5em;
+	-webkit-margin-after: 1.5em;
+}
+
+.open{
+	margin-top: 5px;
+	height: calc(100% - 15px);
+}
+#index{
+	display: none;
+}
+.info{
+	border-top: 1px solid #e7e7e7;
+	padding: 15px;
+}
+.info ul{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	list-style-type: none;
+}
+.info li{
+	line-height: 27px;
+}
+.description{
+	color: #333;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.title{
+	color: #ef4836;
+	font-size: 1.1em;
+}
+.time{
+	color: #333;
+	font-size: .9em;
+}
+
+.hide{
+	display: none;
+}
+.lg{
+	font-size: 20px;
+}

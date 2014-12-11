@@ -1,0 +1,67 @@
+// _bar-list.scss
+.list{
+	height: 100%;
+	overflow-y: auto;
+}
+.list-title{
+	color: #a8a8a8;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 0px 10px 15px;
+	display: none;
+}
+.bar{
+	height: 50px;
+	background-color: #FFF;
+	box-sizing: border-box;
+	border-top: 1px solid #e3e3e3;
+	color: #333;
+	display: none;
+}
+.bar-open{
+	height: calc(100% - 45px);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+}
+.bar-header{
+	height: 50px;
+	box-sizing: border-box;
+	padding-top: 3px;
+}
+.bar:last-child{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	margin-bottom: 10px;
+}
+.bar-icon{
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+	color: #ef4836;
+	padding-top: 12px;
+}
+.bar-title{
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	padding-top: 9px;
+	line-height: 15px;
+}
+.distance{
+	padding-right: 15px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.event{
+	color: #f1c40f !important;
+-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.event .bar-icon{
+	color: #f1c40f !important;
+}

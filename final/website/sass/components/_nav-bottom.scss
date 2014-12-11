@@ -1,0 +1,49 @@
+// _nav-bottom.scss
+.nav-bottom{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 45px;
+	box-sizing: border-box;
+	background-color: #ef4836;
+	border-top: 1px solid #c0392b;
+	display: none;
+}
+.icon-desc{
+	font-size:12px;
+	position: absolute;
+	margin-top: -4px;
+	margin-left: -14px;
+}
+.help{
+	text-align: right;
+	color: #FFF;
+	padding-top: 6px;
+}
+.help i{
+	padding-right: 10px;
+}
+.help-list{
+	width: 150px;
+	height: 85px;
+	border: 1px solid #ef4836;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 50px;
+	right: 5px;
+	background-color: #FFF;
+	opacity: 0;
+}
+.help-list ul{
+	list-style-type: none;
+	font-size: 14px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.help-list li{
+	border-bottom: 1px solid #e7e7e7;
+}
+.help-event{
+	color: #f1c40f;
+}

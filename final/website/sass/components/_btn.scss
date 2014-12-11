@@ -1,0 +1,34 @@
+// _btn.scss
+button{
+	border-color: #D54030 !important;
+}
+.btn{
+	display: inline-block;
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif !important;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid #D54030 !important;
+	background-image: none;
+	padding: 15px 16px;
+	font-size: 14px;
+	box-sizing: border-box;
+	background-color: #ef4836 !important;
+	color: #FFF;
+	width: 100%;
+	border-radius: 2px;
+	-webkit-box-shadow: 1px 3px 3px -2px rgba(120,120,120,0.6);
+	-moz-box-shadow: 1px 3px 3px -2px rgba(120,120,120,0.6);
+	box-shadow: 1px 3px 3px -2px rgba(120,120,120,0.6);
+}
+.btn-alt{
+	margin-top: 25px;
+	background-color: #FFF;
+	color: #333;
+	border-color: #e7e7e7;
+	-webkit-box-shadow: 1px 3px 3px -2px rgba(120,120,120,0.6);
+	-moz-box-shadow: 1px 3px 3px -2px rgba(120,120,120,0.6);
+	box-shadow: 1px 3px 3px -2px rgba(120,120,120,0.6);
+}
